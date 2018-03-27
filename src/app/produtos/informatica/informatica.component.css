@@ -1,0 +1,30 @@
+.left-menu {
+  /* height: -webkit-fill-available;
+  padding-bottom: 0px; */
+}
+
+.top-menu {
+  background-color: #1c1c1c;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  margin-left: -5px;
+  margin-top: 0px;
+  height: auto;
+}
+
+.image-header {
+  width: 100%;
+}
+
+#texto-topo {
+  text-align: center;
+  font-size: 25px;
+  color: #6495ED;
+  padding-top: 40px;
+  font-weight: bold;
+}

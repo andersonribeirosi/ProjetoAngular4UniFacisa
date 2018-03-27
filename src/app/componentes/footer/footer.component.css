@@ -1,0 +1,9 @@
+/* Footer - Rodapé da Página */
+.footer {
+  color: white;
+  background-color: #363636;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 25px;
+  margin-top: 12%;
+}

@@ -1,0 +1,52 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand">
+        <img class="logo-menu" src="/assets/logo.svg" alt="logotipo">
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a routerLink="/home">
+            <span class="glyphicon glyphicon-home"></span>&nbsp; Home</a>
+        </li>
+        <li>
+          <a routerLink="/portfolio" role="button">
+            <span class="glyphicon glyphicon-credit-card"></span>&nbsp; Portfolio</a>
+        </li>
+        <li class="dropdown">
+
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-plus-sign"></span>&nbsp; Adicionar Itens
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a routerLink="/adicionar-portfolio">Adicionar Portfólio</a>
+            </li>
+            <li>
+              <a routerLink="/adicionar-produto">Adicionar Produto</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a routerLink="/contato">
+            <span class="glyphicon glyphicon-earphone"></span>&nbsp; Contato</a>
+        </li>
+        <li>
+          <a routerLink="/destaques">
+            <span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; Produtos</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</nav>

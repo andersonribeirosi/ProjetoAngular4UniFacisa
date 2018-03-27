@@ -1,0 +1,26 @@
+/* CSS Referente o index.html */
+.sub-header {
+  height: auto;
+  margin-right:auto;
+  padding-bottom: 0px;
+}
+
+.image-header {
+  width: 100%;
+}
+
+/* CSS referente as redes sociais */
+#redes-sociais{
+  text-align: center;
+  color: #6495ED;
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 0px;
+}
+
+#redesociais-logo{
+  height: 100px;
+  width:100%;
+  padding-bottom: 10px;
+}

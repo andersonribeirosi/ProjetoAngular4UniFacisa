@@ -1,0 +1,17 @@
+#texto-topo {
+  text-align: center;
+  font-size: 25px;
+  color: #6495ED;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.imagens-portfolio {
+  padding-top: 20px;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 40px;
+  
+}
